@@ -1,13 +1,12 @@
 #include <iostream>
 
-using namespace std;
+using namespace std; //"Define" para não precisar usar o std::
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    cout << "Hello world!" << endl;
-    cout << "Hello world!" << endl;
-    cout << "Hello world!" << endl;
-    cout << "Hello world!" << endl;
+    int val;
+    cout << "Cout imprime um valor na tela";
+    cin
+}
     return 0;
 }

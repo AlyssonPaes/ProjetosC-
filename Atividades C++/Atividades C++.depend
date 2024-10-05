@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1728154424 source:c:\users\alyss\desktop\c++\projetos_c++\atividades c++\main.cpp
+1728162780 source:c:\users\alyss\desktop\c++\projetos_c++\atividades c++\main.cpp
 	"SalesScore.h"
 	<iostream>
 	<string>
 
-1728154354 source:c:\users\alyss\desktop\c++\projetos_c++\atividades c++\salesscore.cpp
+1728154517 source:c:\users\alyss\desktop\c++\projetos_c++\atividades c++\salesscore.cpp
 	"SalesScore.h"
 	<iostream>
 	<string>

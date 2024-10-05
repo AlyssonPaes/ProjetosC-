@@ -1,4 +1,5 @@
 #include "SalesScore.h"
+
 #include <iostream>
 #include <string> //lib de string do C++
 
@@ -25,12 +26,11 @@ int main() //inicio da funcao principal
 //    mySales.bootSystem(storeTitle);
 
     //Cria dois objetos da classe SalesScore
-    SalesScore myStore1("ACP STORE!!!");
+    SalesScore myStore1("ALYSSON COTTA PAES NEW STORE!!!");
     SalesScore myStore2("ACP OUTLET!!");
 
     cout <<   "Loja 1 criada com sucesso: " << myStore1.getStoreTitle()
          << "\nLoja 2 criada com sucesso: " << myStore2.getStoreTitle() << endl;
-
 
     while(1);
     return 0;

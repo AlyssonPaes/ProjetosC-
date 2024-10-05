@@ -1,5 +1,5 @@
-#ifndef SALESSCORE_H
-#define SALESSCORE_H
+#ifndef SALESSCORE_H //Esse ifDefine é um costume em C++ para quando o compilador for ler o código e a classe
+#define SALESSCORE_H //ser chamada em varios lugares ele não compile varias vezes a mesma coisa
 
 #include <iostream>
 #include <string>
@@ -12,29 +12,13 @@ using std::endl;
 class SalesScore
 {
 public:
+
     // Construtor
-    SalesScore(string title)
-    {
-        setStoreTitle(title);
-    }
+    SalesScore(string);
 
-    // Método para definir o nome da loja
-    void setStoreTitle(string title)
-    {
-        storeTitle = title;
-    }
-
-    // Método para retornar o nome da loja
-    string getStoreTitle()
-    {
-        return storeTitle;
-    }
-
-    // Método para inicializar o sistema de vendas
-    void bootSystem(string storeTitle)
-    {
-        cout << "Score de Vendas!\n" << storeTitle << endl;
-    }
+    void setStoreTitle(string); //Prototipo da função
+    string getStoreTitle();     //Prototipo da função
+    void bootSystem(string);    //Prototipo da função
 
 private:
     // Nome da loja

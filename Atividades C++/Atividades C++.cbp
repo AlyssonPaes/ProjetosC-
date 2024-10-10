@@ -26,6 +26,8 @@
 		<Unit filename="SalesScore.cpp" />
 		<Unit filename="SalesScore.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="numberCalc.cpp" />
+		<Unit filename="numberCalc.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

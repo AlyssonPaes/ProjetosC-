@@ -3,10 +3,16 @@
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 using std::string;
 using std::cout;
 using std::endl;
+using std::setprecision; //Usado para adicionar precisao a saida numérica
+using std::fixed;
+using std::cin;
+using namespace std;
+using std::getline;
 
 // Classe criada para implementar um score hipotético de vendas
 class SalesScore
@@ -18,7 +24,8 @@ public:
 
     void setStoreTitle(string); //Prototipo da função
     string getStoreTitle();     //Prototipo da função
-    void bootSystem(string);    //Prototipo da função
+    void bootSystem();    //Prototipo da função
+    void calcSalesAvarege();
 
 private:
     // Nome da loja

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1728944105 source:c:\users\alyss\desktop\c++\projetos_c++\calcjuroscompostos\calculator.cpp
+	"Calculator.h"
+
+1728943960 c:\users\alyss\desktop\c++\projetos_c++\calcjuroscompostos\calculator.h
+	<iostream>
+	<iomanip>
+	<cmath>
+
+1728944162 source:c:\users\alyss\desktop\c++\projetos_c++\calcjuroscompostos\main.cpp
+	"Calculator.h"
+

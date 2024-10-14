@@ -18,7 +18,7 @@ class NumberCalc
 {
     public:
 
-    // Construtor
+        // Construtor
         NumberCalc();
         void showMessage();
         void userInput();

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1728935868 source:c:\users\alyss\desktop\c++\projetos_c++\atividades c++\main.cpp
+1729208409 source:c:\users\alyss\desktop\c++\projetos_c++\atividades c++\main.cpp
 	"SalesScore.h"
 	"numberCalc.h"
 	<stdio.h>
@@ -7,7 +7,7 @@
 1728602056 source:c:\users\alyss\desktop\c++\projetos_c++\atividades c++\salesscore.cpp
 	"SalesScore.h"
 
-1728599438 c:\users\alyss\desktop\c++\projetos_c++\atividades c++\salesscore.h
+1729207352 c:\users\alyss\desktop\c++\projetos_c++\atividades c++\salesscore.h
 	<iostream>
 	<string>
 	<iomanip>

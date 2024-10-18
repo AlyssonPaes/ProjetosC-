@@ -26,10 +26,14 @@ public:
     string getStoreTitle();     //Prototipo da função
     void bootSystem();    //Prototipo da função
     void calcSalesAvarege();
+    void enterProducts();
+    void reportProducts();
+
 
 private:
     // Nome da loja
     string storeTitle;
+    int produtoA, produtoB, produtoC;
 };
 
 #endif // SALESSCORE_H

@@ -6,6 +6,9 @@
 SalesScore::SalesScore(string title) //Aqui é o metodo propriamente dito, antes do nome dele tem que passar de qual classe ele herda, nesse caso SalesScore::"Nome do metodo"
 {
     setStoreTitle(title);
+    produtoA = 0;
+    produtoB = 0;
+    produtoC = 0;
 }
 
 // Método para definir o nome da loja
@@ -65,8 +68,66 @@ void SalesScore::calcSalesAvarege()
     {
         cout << "Nenhum valor de venda foi inserido! " << endl;
     }
+}
+void SalesScore::enterProducts()
+{
+    int product;
 
+    cout << "Insira o produto Vendido: " << endl
+         << "ou tecle crtl+C para finalizar " << endl;
 
+     while((product = cin.get())!= EOF)
+     {
+        switch(product)
+        {
+            case 'a':
+            case 'A':
+            {
+                produtoA++;
+            }
+            break;
+
+            case 'b':
+            case 'B':
+            {
+                produtoB++;
+            }
+            break;
+
+            case 'c':
+            case 'C':
+            {
+                produtoC++;
+            }
+            break;
+            case '\n':
+            {
+            }
+            case '\t':
+            {
+            }
+            case ' ':
+            {
+            }
+            break;
+
+            default:
+            {
+                cout << "Produto nao cadastrado, insira um produto valido: " << endl;
+            }
+            break;
+
+        }
+     }
+}
+
+void SalesScore::reportProducts()
+{
+    cout << "\n-----------------------------"
+         << "\n Resumo dos produtos vendidos"
+         << "\n Produto A: " << produtoA
+         << "\n Produto B: " << produtoB
+         << "\n Produto C: " << produtoC << endl;
 }
 
 
